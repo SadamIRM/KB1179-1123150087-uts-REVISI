@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:revisi_splash_screen_sadam/login/login.dart';
+import 'package:revisi_splash_screen_sadam_irham/login/login.dart';
 import 'layar2.dart';
 
 class Layar3 extends StatelessWidget {
