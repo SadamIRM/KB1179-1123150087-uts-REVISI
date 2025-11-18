@@ -42,17 +42,14 @@ class Layar2 extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(20),
-                    child: Image.asset(
-                      'images/learning_two.png',
-                      fit: BoxFit.contain,
-                    ),
+                    child: Image.asset('gambar/', fit: BoxFit.contain),
                   ),
                 ),
 
                 const SizedBox(height: 30),
 
                 const Text(
-                  'Materi Berkualitas & Interaktif',
+                  'Tambah & Tandai Tugas Lebih Cepat',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,
@@ -66,7 +63,7 @@ class Layar2 extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 40),
                   child: Text(
-                    'Modul belajar, video, dan latihan soal yang dirancang untuk membantu kamu memahami pelajaran lebih cepat.',
+                    'Buat daftar tugas, tandai yang sudah selesai, dan fokus pada hal yang paling penting.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,
