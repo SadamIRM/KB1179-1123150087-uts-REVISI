@@ -41,7 +41,6 @@ class Layar1 extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Paragraf
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 40),
               child: Text(
