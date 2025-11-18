@@ -30,7 +30,7 @@ class Layar1 extends StatelessWidget {
 
             const SizedBox(height: 30),
             const Text(
-              'EduPrime aplikasi E-learning pintar',
+              'ProTask Manager',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
@@ -45,7 +45,7 @@ class Layar1 extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 40),
               child: Text(
-                'Aplikasi belajar mobile sederhana dan fleksible',
+                'Kelola pekerjaan, jadwal, dan aktivitas harian dengan sistem yang terstruktur dan efisien. Selesaikan lebih banyak setiap hari.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
