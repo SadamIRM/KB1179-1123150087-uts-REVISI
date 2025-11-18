@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:revisi_splash_screen_sadam/login/login.dart';
+import 'package:revisi_splash_screen_sadam/login/login.dart';
 import 'layar2.dart';
 
-class Screen3 extends StatelessWidget {
-  const Screen3({super.key});
+class Layar3 extends StatelessWidget {
+  const Layar3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -91,34 +91,34 @@ class Screen3 extends StatelessWidget {
 
                 const SizedBox(height: 40),
 
-                // ElevatedButton(
-                //   onPressed: () {
-                //     Navigator.pushReplacement(
-                //       context,
-                //       MaterialPageRoute(
-                //         builder: (context) => const LayarLogin(),
-                //       ),
-                //     );
-                //   },
-                //   style: ElevatedButton.styleFrom(
-                //     backgroundColor: Colors.deepPurple,
-                //     padding: const EdgeInsets.symmetric(
-                //       horizontal: 50,
-                //       vertical: 14,
-                //     ),
-                //     shape: RoundedRectangleBorder(
-                //       borderRadius: BorderRadius.circular(30),
-                //     ),
-                //   ),
-                //   child: const Text(
-                //     'Login',
-                //     style: TextStyle(
-                //       fontSize: 18,
-                //       color: Colors.white,
-                //       fontWeight: FontWeight.bold,
-                //     ),
-                //   ),
-                // ),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LayarLogin(),
+                      ),
+                    );
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.deepPurple,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 50,
+                      vertical: 14,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
