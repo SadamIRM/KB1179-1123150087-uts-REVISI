@@ -52,7 +52,7 @@ class Screen3 extends StatelessWidget {
                 const SizedBox(height: 30),
 
                 const Text(
-                  'Belajar Kapan Saja di Mana Saja',
+                  'Tetap Produktif Setiap Hari',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,
@@ -66,7 +66,7 @@ class Screen3 extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 40),
                   child: Text(
-                    'Pantau progresmu, ulangi materi kapan pun diperlukan, dan capai tujuan belajarmu dengan cara yang lebih efisien.',
+                    'Pantau progres, capai target harian, dan jadikan produktivitas sebagai kebiasaan baik.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,
