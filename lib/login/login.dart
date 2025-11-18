@@ -20,7 +20,7 @@ class LayarLogin extends StatelessWidget {
                 Hero(
                   tag: 'logo',
                   child: Image.asset(
-                    'images/user.png',
+                    'images/pengguna.png',
                     width: 100,
                     height: 100,
                     fit: BoxFit.contain,
