@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'screen_2.dart';
+// import 'layar2.dart';
 
 class Layar1 extends StatelessWidget {
   const Layar1({super.key});
@@ -21,10 +21,7 @@ class Layar1 extends StatelessWidget {
               ),
               child: Padding(
                 padding: const EdgeInsets.all(20),
-                child: Image.asset(
-                  'images/learning_one.png',
-                  fit: BoxFit.contain,
-                ),
+                child: Image.asset('gambar/gambar1.png', fit: BoxFit.contain),
               ),
             ),
 
