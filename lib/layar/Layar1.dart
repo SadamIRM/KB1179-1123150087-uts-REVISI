@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'layar2.dart';
+import 'Layar2.dart';
 
 class Layar1 extends StatelessWidget {
   const Layar1({super.key});
@@ -65,32 +65,32 @@ class Layar1 extends StatelessWidget {
 
             const SizedBox(height: 40),
 
-            // ElevatedButton(
-            //   onPressed: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(builder: (context) => const Layar2()),
-            //     );
-            //   },
-            //   style: ElevatedButton.styleFrom(
-            //     backgroundColor: Colors.deepPurple,
-            //     padding: const EdgeInsets.symmetric(
-            //       horizontal: 50,
-            //       vertical: 14,
-            //     ),
-            //     shape: RoundedRectangleBorder(
-            //       borderRadius: BorderRadius.circular(30),
-            //     ),
-            //   ),
-            //   child: const Text(
-            //     'Lanjut',
-            //     style: TextStyle(
-            //       fontSize: 18,
-            //       color: Colors.white,
-            //       fontWeight: FontWeight.bold,
-            //     ),
-            //   ),
-            // ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Layar2()),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.deepPurple,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 50,
+                  vertical: 14,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30),
+                ),
+              ),
+              child: const Text(
+                'Lanjut',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),
