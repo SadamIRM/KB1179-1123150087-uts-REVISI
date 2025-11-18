@@ -42,7 +42,10 @@ class Layar2 extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(20),
-                    child: Image.asset('gambar/', fit: BoxFit.contain),
+                    child: Image.asset(
+                      'gambar/Layar2.dart',
+                      fit: BoxFit.contain,
+                    ),
                   ),
                 ),
 
